@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+require 'r-fxxk'
+
+class Gochiusa < Brainfuck
+  nxt 'こころ'
+  inc 'ぴょん'
+  prv 'いつも'
+  dec 'らんらん'
+  opn 'はじめがかんじん'
+  cls 'つーんだつーんだ'
+  put '言いなさいっ'
+  get '待ち？'
+end
+
+puts Gochiusa.new.fuck(ARGF.read)
+
